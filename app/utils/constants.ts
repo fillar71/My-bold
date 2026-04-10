@@ -26,9 +26,9 @@ const staticModels: ModelInfo[] = [
   { name: 'claude-3-opus-20240229', label: 'Claude 3 Opus', provider: 'Anthropic' },
   { name: 'claude-3-sonnet-20240229', label: 'Claude 3 Sonnet', provider: 'Anthropic' },
   { name: 'claude-3-haiku-20240307', label: 'Claude 3 Haiku', provider: 'Anthropic' },
-  { name: 'gpt-4o-mini', label: 'GPT-4o Mini', provider: 'OpenAI' },
-  { name: 'gpt-4-turbo', label: 'GPT-4 Turbo', provider: 'OpenAI' },
-  { name: 'gpt-4', label: 'GPT-4', provider: 'OpenAI' },
+  { name: 'mistral-large-latest', label: 'Mistral Large Latest', provider: 'Mistral' },
+  { name: 'mistral-medium-latest', label: 'Mistral Medium Latest', provider: 'Mistral' },
+  { name: 'codestral-latest', label: 'Codestral Latest', provider: 'Mistral' },
   { name: 'gpt-3.5-turbo', label: 'GPT-3.5 Turbo', provider: 'OpenAI' },
 ];
 
