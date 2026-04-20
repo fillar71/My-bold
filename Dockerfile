@@ -12,6 +12,7 @@ COPY package.json pnpm-lock.yaml* ./
 # Install semua dependencies (termasuk devDependencies untuk build)
 RUN pnpm install --no-frozen-lockfile
 
+RUN pnpm add -D sass-embedded
 # Salin seluruh kode sumber
 COPY . .
 
